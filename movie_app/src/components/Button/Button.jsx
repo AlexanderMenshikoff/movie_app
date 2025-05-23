@@ -1,8 +1,13 @@
 import './Button.css';
 
-const Button = (props) => {
+const Button = ({text}) => {
+
+	const handleClick = () => {
+		return console.log('click');
+	};
+	
 	return (
-		<button className='button'>{props}</button>
+		<button className='button' onClick={handleClick}>{text}</button>
 	);
 };
 
