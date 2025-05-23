@@ -1,0 +1,28 @@
+.input-container{
+     position: relative;
+     display: inline-flex;
+     align-items: center;
+}
+
+.input{
+    width: 290px;
+    height: 27px;
+    border: 1px solid #323b54;
+    border-radius: 12px;
+    padding: 16px 0px;
+    background: no-repeat 15px center;
+    /* background-size: auto 50%; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #475069;
+    padding-left:55px;
+    margin-right: 8px;
+   
+}
+
+.input-img{
+    position: absolute;
+    /* top: 10px;*/
+    left: 20px; 
+}
