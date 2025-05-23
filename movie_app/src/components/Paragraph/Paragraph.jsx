@@ -1,8 +1,8 @@
 import './Paragraph.css';
 
-const Paragraph = (props) => {
+const Paragraph = ({text}) => {
 	return (
-		<p className='paragraph'>{props}</p>
+		<p className='paragraph'>{text}</p>
 	);
 };
 
